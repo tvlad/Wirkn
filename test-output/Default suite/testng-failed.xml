@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="wirknTest._02_SignInOut">
+        <methods>
+          <include name="_03_T_ForgotPassTrueEmail"/>
+          <include name="afterTest"/>
+          <include name="_04_T_SignInErrTitle"/>
+          <include name="setUp"/>
+          <include name="_05_T_SignIn"/>
+          <include name="_06_T_SignOut"/>
+        </methods>
+      </class> <!-- wirknTest._02_SignInOut -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

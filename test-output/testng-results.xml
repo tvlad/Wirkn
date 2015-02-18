@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="91158" started-at="2015-02-18T10:30:02Z" finished-at="2015-02-18T10:31:33Z">
+    <groups>
+      <group name="mainPage">
+        <method signature="_02_SignInOut._01_T_ForgotPass()[pri:0, instance:wirknTest._02_SignInOut@880ec60]" name="_01_T_ForgotPass" class="wirknTest._02_SignInOut"/>
+        <method signature="_02_SignInOut._02_T_ForgotPassWrongEmail()[pri:0, instance:wirknTest._02_SignInOut@880ec60]" name="_02_T_ForgotPassWrongEmail" class="wirknTest._02_SignInOut"/>
+        <method signature="_02_SignInOut._03_T_ForgotPassTrueEmail()[pri:0, instance:wirknTest._02_SignInOut@880ec60]" name="_03_T_ForgotPassTrueEmail" class="wirknTest._02_SignInOut"/>
+        <method signature="_02_SignInOut._04_T_SignInErrTitle()[pri:0, instance:wirknTest._02_SignInOut@880ec60]" name="_04_T_SignInErrTitle" class="wirknTest._02_SignInOut"/>
+        <method signature="_02_SignInOut._05_T_SignIn()[pri:0, instance:wirknTest._02_SignInOut@880ec60]" name="_05_T_SignIn" class="wirknTest._02_SignInOut"/>
+      </group> <!-- mainPage -->
+    </groups>
+    <test name="Default test" duration-ms="91158" started-at="2015-02-18T10:30:02Z" finished-at="2015-02-18T10:31:33Z">
+      <class name="wirknTest._02_SignInOut">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:wirknTest._02_SignInOut@880ec60]" name="setUp" is-config="true" duration-ms="5651" started-at="2015-02-18T12:30:02Z" finished-at="2015-02-18T12:30:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="_01_T_ForgotPass()[pri:0, instance:wirknTest._02_SignInOut@880ec60]" name="_01_T_ForgotPass" duration-ms="9334" started-at="2015-02-18T12:30:08Z" finished-at="2015-02-18T12:30:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _01_T_ForgotPass -->
+        <test-method status="PASS" signature="_02_T_ForgotPassWrongEmail()[pri:0, instance:wirknTest._02_SignInOut@880ec60]" name="_02_T_ForgotPassWrongEmail" duration-ms="12635" started-at="2015-02-18T12:30:17Z" finished-at="2015-02-18T12:30:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _02_T_ForgotPassWrongEmail -->
+        <test-method status="PASS" signature="_03_T_ForgotPassTrueEmail()[pri:0, instance:wirknTest._02_SignInOut@880ec60]" name="_03_T_ForgotPassTrueEmail" duration-ms="11302" started-at="2015-02-18T12:30:30Z" finished-at="2015-02-18T12:30:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _03_T_ForgotPassTrueEmail -->
+        <test-method status="PASS" signature="_04_T_SignInErrTitle()[pri:0, instance:wirknTest._02_SignInOut@880ec60]" name="_04_T_SignInErrTitle" duration-ms="19777" started-at="2015-02-18T12:30:41Z" finished-at="2015-02-18T12:31:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _04_T_SignInErrTitle -->
+        <test-method status="PASS" signature="_05_T_SignIn()[pri:0, instance:wirknTest._02_SignInOut@880ec60]" name="_05_T_SignIn" duration-ms="24058" started-at="2015-02-18T12:31:01Z" finished-at="2015-02-18T12:31:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _05_T_SignIn -->
+        <test-method status="PASS" signature="_06_T_SignOut()[pri:0, instance:wirknTest._02_SignInOut@880ec60]" name="_06_T_SignOut" duration-ms="7918" started-at="2015-02-18T12:31:25Z" finished-at="2015-02-18T12:31:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _06_T_SignOut -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:wirknTest._02_SignInOut@880ec60]" name="afterTest" is-config="true" duration-ms="459" started-at="2015-02-18T12:31:33Z" finished-at="2015-02-18T12:31:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- wirknTest._02_SignInOut -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
